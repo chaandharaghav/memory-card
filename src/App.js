@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+// importing images
+import narutoTitleImg from './img/Naruto title.png';
+import sharingan from './img/Sharingan.png';
+
+// importing styles
 import './App.css';
+
+// importing components
+import Header from './components/HeaderImageOnly';
+import HeaderDivision from './components/HeaderDivision';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header>
+      <div className="App">
+        <Header
+          imgURL={narutoTitleImg}
+          alternateName="Heading, Naruto Memory"
+        />
+        <HeaderDivision
+          imgURL={sharingan}
+          alternateName="Header division image"
+        />
+      </div>
+    </header>
   );
 }
 

@@ -1,0 +1,18 @@
+#header-division-image-div {
+  display: flex;
+  align-items: center;
+}
+
+#header-division-image-div::before,
+#header-division-image-div::after {
+  content: '';
+  width: 50vw;
+  height: 2px;
+  left: 0;
+  clear: both;
+  background-color: black;
+}
+
+#header-division img {
+  max-width: 30px;
+}
