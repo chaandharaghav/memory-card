@@ -1,4 +1,9 @@
 import { useEffect, useState } from 'react';
+
+// importing styles
+import '../styles/Board.css';
+
+// importing components
 import Card from './Card';
 import initializeState from './initializeState';
 

@@ -1,0 +1,17 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+
+  margin: 0 auto;
+}
+
+@media (min-width: 767px) {
+  #board {
+    grid-template-columns: repeat(3, calc(100% / 3));
+  }
+}
+@media (min-width: 1023px) {
+  #board {
+    grid-template-columns: repeat(4, 25%);
+  }
+}

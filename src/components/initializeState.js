@@ -3,7 +3,11 @@ import uniqid from 'uniqid';
 // importing images
 import curseMark from '../img/cards/curse-mark.png';
 import hyugaMark from '../img/cards/hyuga-mark.png';
-import konohaSymbol from '../img/cards/konohagakure-symbol.png';
+import konohagakureSymbol from '../img/cards/konohagakure-symbol.png';
+import iwagakureSymbol from '../img/cards/iwagakure-symbol.png';
+import kirigakureSymbol from '../img/cards/kirigakure-symbol.png';
+import komogakureSymbol from '../img/cards/komogakure-symbol.png';
+import sunagakureSymbol from '../img/cards/sunagakure-symbol.png';
 import loveKanji from '../img/cards/love-kanji.png';
 import myobokozanSymbol from '../img/cards/myobokozan.png';
 import nineTailsSeal from '../img/cards/nine-tails-seal.png';
@@ -15,43 +19,63 @@ function initializeState() {
     {
       id: uniqid(),
       name: 'Orochimaru curse mark',
-      imageSrc: curseMark,
+      imgURL: curseMark,
     },
 
     {
       id: uniqid(),
       name: 'Hyuga curse mark',
-      imageSrc: hyugaMark,
+      imgURL: hyugaMark,
     },
     {
       id: uniqid(),
       name: 'Konoha symbol',
-      imageSrc: konohaSymbol,
+      imgURL: konohagakureSymbol,
+    },
+    {
+      id: uniqid(),
+      name: 'Iwagakure symbol',
+      imgURL: iwagakureSymbol,
+    },
+    {
+      id: uniqid(),
+      name: 'Sunagakure symbol',
+      imgURL: sunagakureSymbol,
+    },
+    {
+      id: uniqid(),
+      name: 'Kirigakure symbol',
+      imgURL: kirigakureSymbol,
+    },
+    {
+      id: uniqid(),
+      name: 'Komogakure symbol',
+      imgURL: komogakureSymbol,
     },
     {
       id: uniqid(),
       name: 'Love (kanji)',
-      imageSrc: loveKanji,
+      imgURL: loveKanji,
     },
     {
       id: uniqid(),
       name: 'Myobokuzan symbol',
-      imageSrc: myobokozanSymbol,
+      imgURL: myobokozanSymbol,
     },
     {
       id: uniqid(),
       name: 'Nine tails seal',
-      imageSrc: nineTailsSeal,
+      imgURL: nineTailsSeal,
     },
     {
       id: uniqid(),
       name: 'Uchiha crest',
-      imageSrc: uchihaCrest,
+      imgURL: uchihaCrest,
     },
     {
       id: uniqid(),
       name: 'Uzumaki crest',
-      imageSrc: uzumakiCrest,
+      imgURL: uzumakiCrest,
     },
   ];
 }

@@ -1,7 +1,13 @@
+// importing styles
+import '../styles/Card.css';
+
 function Card(props) {
   return (
     <div className="card">
-      <p onClick={props.shuffleCards}>{props.info.name}</p>
+      <figure>
+        <img src={props.info.imgURL} alt={props.info.name} />
+        <figcaption>{props.info.name}</figcaption>
+      </figure>
     </div>
   );
 }

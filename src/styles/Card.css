@@ -1,0 +1,11 @@
+.card figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  max-width: 100%;
+  width: 7rem;
+}
