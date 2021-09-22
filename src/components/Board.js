@@ -17,6 +17,8 @@ function Board(props) {
   const [currentScore, setCurrentScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
 
+  const [clickedCards, setClickedCards] = useState([]);
+
   useEffect(() => {
     setCards(initializeState());
   }, []);
@@ -25,7 +27,19 @@ function Board(props) {
     setCards(shuffleArray(Array.from(cards)));
   }
 
-  function handleClick() {
+  function handleClick(id) {
+    if (clickedCards.includes(id)) {
+      if (bestScore < currentScore) {
+        setBestScore(currentScore);
+      }
+      setCurrentScore(0);
+      setClickedCards([]);
+    } else {
+      const newClickedCards = Array.from(clickedCards);
+      newClickedCards.push(id);
+      setClickedCards(newClickedCards);
+      setCurrentScore(currentScore + 1);
+    }
     shuffleCards();
   }
 
