@@ -1,3 +1,13 @@
+.card {
+  background-color: hsl(0, 0%, 90%);
+
+  border-radius: 15px;
+}
+
+.card:active {
+  background-color: hsl(0, 0%, 80%);
+}
+
 .card figure {
   display: flex;
   flex-direction: column;
@@ -8,4 +18,14 @@
 .card img {
   max-width: 100%;
   width: 7rem;
+}
+
+.card figcaption {
+  text-align: center;
+}
+
+@media (min-width: 1023px) {
+  .card:hover {
+    background-color: hsl(0, 0%, 80%);
+  }
 }
