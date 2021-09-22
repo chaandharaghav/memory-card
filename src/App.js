@@ -1,6 +1,6 @@
 // importing images
-import narutoTitleImg from './img/Naruto title.png';
-import sharingan from './img/Sharingan.png';
+import narutoTitleImg from './img/header/Naruto title.png';
+import sharingan from './img/header/Sharingan.png';
 
 // importing styles
 import './App.css';

@@ -1,7 +1,7 @@
 function Card(props) {
   return (
     <div className="card">
-      <p onClick={props.shuffleCards}>{props.info.title}</p>
+      <p onClick={props.shuffleCards}>{props.info.name}</p>
     </div>
   );
 }
