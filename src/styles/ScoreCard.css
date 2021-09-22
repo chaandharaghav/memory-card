@@ -1,0 +1,20 @@
+#scorecard {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+#current-score,
+#best-score {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+#current-score {
+  background-color: rgb(126, 255, 126);
+}
+
+#best-score {
+  background-color: rgb(255, 107, 107);
+}

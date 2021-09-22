@@ -3,7 +3,7 @@ import '../styles/Card.css';
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="card" onClick={props.handleClick}>
       <figure>
         <img src={props.info.imgURL} alt={props.info.name} />
         <figcaption>{props.info.name}</figcaption>
