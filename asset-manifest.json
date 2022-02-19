@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.75a0a9e8.chunk.css",
+    "main.js": "/memory-card/static/js/main.c85da7bc.chunk.js",
+    "main.js.map": "/memory-card/static/js/main.c85da7bc.chunk.js.map",
+    "runtime-main.js": "/memory-card/static/js/runtime-main.ea0e3637.js",
+    "runtime-main.js.map": "/memory-card/static/js/runtime-main.ea0e3637.js.map",
+    "static/js/2.305623da.chunk.js": "/memory-card/static/js/2.305623da.chunk.js",
+    "static/js/2.305623da.chunk.js.map": "/memory-card/static/js/2.305623da.chunk.js.map",
+    "static/js/3.1d9e5a70.chunk.js": "/memory-card/static/js/3.1d9e5a70.chunk.js",
+    "static/js/3.1d9e5a70.chunk.js.map": "/memory-card/static/js/3.1d9e5a70.chunk.js.map",
+    "index.html": "/memory-card/index.html",
+    "static/css/main.75a0a9e8.chunk.css.map": "/memory-card/static/css/main.75a0a9e8.chunk.css.map",
+    "static/js/2.305623da.chunk.js.LICENSE.txt": "/memory-card/static/js/2.305623da.chunk.js.LICENSE.txt",
+    "static/media/Naruto title.d775c337.png": "/memory-card/static/media/Naruto title.d775c337.png",
+    "static/media/Sharingan.c1041f01.png": "/memory-card/static/media/Sharingan.c1041f01.png",
+    "static/media/curse-mark.1bde1cef.png": "/memory-card/static/media/curse-mark.1bde1cef.png",
+    "static/media/hyuga-mark.e24226d9.png": "/memory-card/static/media/hyuga-mark.e24226d9.png",
+    "static/media/iwagakure-symbol.0a8291dd.png": "/memory-card/static/media/iwagakure-symbol.0a8291dd.png",
+    "static/media/kirigakure-symbol.5ea35f6b.png": "/memory-card/static/media/kirigakure-symbol.5ea35f6b.png",
+    "static/media/komogakure-symbol.c70f957d.png": "/memory-card/static/media/komogakure-symbol.c70f957d.png",
+    "static/media/konohagakure-symbol.74962ebb.png": "/memory-card/static/media/konohagakure-symbol.74962ebb.png",
+    "static/media/love-kanji.62350d38.png": "/memory-card/static/media/love-kanji.62350d38.png",
+    "static/media/myobokozan.002a3a71.png": "/memory-card/static/media/myobokozan.002a3a71.png",
+    "static/media/nine-tails-seal.958ed406.png": "/memory-card/static/media/nine-tails-seal.958ed406.png",
+    "static/media/sunagakure-symbol.ef8e96b4.png": "/memory-card/static/media/sunagakure-symbol.ef8e96b4.png",
+    "static/media/uchiha-crest.faf2e41f.png": "/memory-card/static/media/uchiha-crest.faf2e41f.png",
+    "static/media/uzumaki-crest.d5c1fe4d.png": "/memory-card/static/media/uzumaki-crest.d5c1fe4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ea0e3637.js",
+    "static/js/2.305623da.chunk.js",
+    "static/css/main.75a0a9e8.chunk.css",
+    "static/js/main.c85da7bc.chunk.js"
+  ]
+}
